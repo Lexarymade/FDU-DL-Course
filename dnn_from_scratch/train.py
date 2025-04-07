@@ -89,17 +89,25 @@ if __name__ == '__main__':
         test_label=val_label,
     )
     
-    train_model(
-        model, 
-        train_img, 
-        train_label, 
-        val_img, 
-        val_label,
-        batch_size=64, 
-        epoch_size=10, 
-        enable_wandb=enable_wandb
-    )
+    is_train = True
+    if is_train:
+        train_model(
+            model, 
+            train_img, 
+            train_label, 
+            val_img, 
+            val_label,
+            batch_size=64, 
+            epoch_size=10, 
+            enable_wandb=enable_wandb
+        )
     
-    # test
-    test_acc, test_loss = model.eval(test_img, test_label)
-    logger.info(f"Final test results - accuracy: {test_acc:.4f}, loss: {test_loss:.4f}")
+        # test
+        test_acc, test_loss = model.eval(test_img, test_label)
+        logger.info(f"Final test results - accuracy: {test_acc:.4f}, loss: {test_loss:.4f}")
+    
+    else:
+        model_path = 'your_model_path'
+        model.load_model(model_path)
+        test_acc, test_loss = model.eval(test_img, test_label)
+        logger.info(f"Final test results - accuracy: {test_acc:.4f}, loss: {test_loss:.4f}")
