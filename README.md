@@ -18,12 +18,13 @@ DATA620004 神经网络与深度学习
 - colmap：参考[colmap配置](https://blog.csdn.net/Sakuya__/article/details/134766215)
 
 ```
-# 上面的参考文档中colmap的编译步骤存在问题，可以改为使用这个脚本
+# 1. 上面的参考文档中colmap的编译步骤存在问题，可以改为使用这个脚本
+
 apt-get update
 apt-get install -y build-essential cmake ninja-build
 
 # 2. 确认 CUDA/NVCC 正常
-/usr/local/cuda/bin/nvcc -V          # 能打印版本信息即可
+/usr/local/cuda/bin/nvcc -V
 
 # 3. 重新进到 build 目录，清理残留
 cd ~/autodl-tmp/gaussian-splatting/colmap
