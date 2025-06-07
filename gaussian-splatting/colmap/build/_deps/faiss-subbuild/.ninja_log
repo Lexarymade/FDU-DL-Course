@@ -1,0 +1,21 @@
+# ninja log v5
+0	55	1749294685285454742	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-mkdir	d888698651433c9a
+0	55	1749294685285454742	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-mkdir	d888698651433c9a
+55	2088	1749294687317456010	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-download	e595d93f56f4aee4
+55	2088	1749294687317456010	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-download	e595d93f56f4aee4
+2088	2103	1749294687333456019	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-update	4aa4b6f451198f3
+2088	2103	1749294687333456019	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-update	4aa4b6f451198f3
+2103	2116	1749294687345456027	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-patch	a49d0d8e7fab1642
+2103	2116	1749294687345456027	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-patch	a49d0d8e7fab1642
+2116	2127	1749294687357456034	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-configure	ec4ea6b334b3b21a
+2116	2127	1749294687357456034	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-configure	ec4ea6b334b3b21a
+2127	2138	1749294687369456041	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-build	45f408f424140068
+2127	2138	1749294687369456041	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-build	45f408f424140068
+2138	2153	1749294687381456049	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-install	3fd49e12db859fc5
+2138	2153	1749294687381456049	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-install	3fd49e12db859fc5
+2153	2169	1749294687397456059	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-test	43a37f7f32837e9c
+2153	2169	1749294687397456059	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-test	43a37f7f32837e9c
+2169	2190	1749294687421456074	CMakeFiles/faiss-populate-complete	2f529f2c6d23ef09
+2169	2190	1749294687421456074	faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-done	2f529f2c6d23ef09
+2169	2190	1749294687421456074	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/CMakeFiles/faiss-populate-complete	2f529f2c6d23ef09
+2169	2190	1749294687421456074	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-done	2f529f2c6d23ef09

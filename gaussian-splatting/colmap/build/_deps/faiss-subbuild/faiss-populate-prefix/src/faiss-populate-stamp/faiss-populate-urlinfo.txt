@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/ahojnnes/faiss/archive/84a2fd7235be00add67d755e0300314cac669547.zip'
+tag='SHA256=919ae53ff365fd85ab2a0a51b0dd58aff03718b025817b411a95f1afeb43649f'

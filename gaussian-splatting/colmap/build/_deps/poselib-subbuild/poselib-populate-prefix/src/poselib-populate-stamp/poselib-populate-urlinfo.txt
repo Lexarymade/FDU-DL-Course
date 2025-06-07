@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/PoseLib/PoseLib/archive/f119951fca625133112acde48daffa5f20eba451.zip'
+tag='SHA256=3faa27d9d1f6ae7cc47602a66c10ac6f64457bc65a959d1880947d3b3bfe1ed1'

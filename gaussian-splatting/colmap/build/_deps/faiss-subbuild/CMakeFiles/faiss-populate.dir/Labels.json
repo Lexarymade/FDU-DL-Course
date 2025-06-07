@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/CMakeFiles/faiss-populate"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/CMakeFiles/faiss-populate.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/CMakeFiles/faiss-populate-complete.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-build.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-configure.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-download.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-install.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-patch.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-test.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"faiss-populate"
+		],
+		"name" : "faiss-populate"
+	}
+}

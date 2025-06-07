@@ -1,0 +1,40 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /root/autodl-tmp/gaussian-splatting/colmap/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_28072 && [1/2] Building C object CMakeFiles/cmTC_28072.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_28072
+FAILED: cmTC_28072 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_28072.dir/CheckFunctionExists.c.o -o cmTC_28072   && :
+/usr/bin/ld: CMakeFiles/cmTC_28072.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /root/autodl-tmp/gaussian-splatting/colmap/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_89eb0 && [1/2] Building C object CMakeFiles/cmTC_89eb0.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_89eb0
+FAILED: cmTC_89eb0 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=cheev_  CMakeFiles/cmTC_89eb0.dir/CheckFunctionExists.c.o -o cmTC_89eb0  /usr/lib/x86_64-linux-gnu/libblas.so  /usr/lib/x86_64-linux-gnu/libf77blas.so  /usr/lib/x86_64-linux-gnu/libatlas.so  -lm  -ldl && :
+/usr/bin/ld: CMakeFiles/cmTC_89eb0.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /root/autodl-tmp/gaussian-splatting/colmap/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fc975 && [1/2] Building C object CMakeFiles/cmTC_fc975.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fc975
+FAILED: cmTC_fc975 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=cheev_  CMakeFiles/cmTC_fc975.dir/CheckFunctionExists.c.o -o cmTC_fc975  /usr/lib/x86_64-linux-gnu/liblapack.so  /usr/lib/x86_64-linux-gnu/libblas.so  /usr/lib/x86_64-linux-gnu/libf77blas.so  /usr/lib/x86_64-linux-gnu/libatlas.so  -fortranlibs && :
+cc: error: unrecognized command-line option ‘-fortranlibs’
+ninja: build stopped: subcommand failed.
+
+
+

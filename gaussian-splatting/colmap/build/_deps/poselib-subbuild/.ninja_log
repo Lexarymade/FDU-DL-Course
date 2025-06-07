@@ -1,0 +1,21 @@
+# ninja log v5
+0	50	1749294682837453217	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-mkdir	447d60e309580bff
+0	50	1749294682837453217	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-mkdir	447d60e309580bff
+51	2271	1749294685057454600	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-download	e0dad890c261eef2
+51	2271	1749294685057454600	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-download	e0dad890c261eef2
+2271	2282	1749294685069454607	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-update	33c27439d5eae4a2
+2271	2282	1749294685069454607	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-update	33c27439d5eae4a2
+2282	2297	1749294685085454617	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-patch	843382bc1103f681
+2282	2297	1749294685085454617	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-patch	843382bc1103f681
+2297	2313	1749294685101454627	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-configure	aff83b35a77f1dfe
+2297	2313	1749294685101454627	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-configure	aff83b35a77f1dfe
+2313	2326	1749294685113454635	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-build	777e2572ede154a9
+2313	2326	1749294685113454635	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-build	777e2572ede154a9
+2326	2340	1749294685125454642	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-install	faf4339c05b7b9ca
+2326	2340	1749294685125454642	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-install	faf4339c05b7b9ca
+2340	2354	1749294685141454652	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-test	b86fb8d1bebf9cd2
+2340	2354	1749294685141454652	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-test	b86fb8d1bebf9cd2
+2354	2381	1749294685169454670	CMakeFiles/poselib-populate-complete	487c86cb17de938e
+2354	2381	1749294685169454670	poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-done	487c86cb17de938e
+2354	2381	1749294685169454670	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/CMakeFiles/poselib-populate-complete	487c86cb17de938e
+2354	2381	1749294685169454670	/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-done	487c86cb17de938e

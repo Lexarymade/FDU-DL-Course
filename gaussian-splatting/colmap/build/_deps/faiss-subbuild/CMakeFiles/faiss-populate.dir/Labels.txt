@@ -1,0 +1,14 @@
+# Target labels
+ faiss-populate
+# Source files and their labels
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/CMakeFiles/faiss-populate
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/CMakeFiles/faiss-populate.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/CMakeFiles/faiss-populate-complete.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-build.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-configure.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-download.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-install.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-mkdir.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-patch.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-test.rule
+/root/autodl-tmp/gaussian-splatting/colmap/build/_deps/faiss-subbuild/faiss-populate-prefix/src/faiss-populate-stamp/faiss-populate-update.rule

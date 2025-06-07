@@ -1,0 +1,110 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4100/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4100.dir/build.make CMakeFiles/cmTC_a4100.dir/build
+gmake[1]: Entering directory '/root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4100.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fPIE -o CMakeFiles/cmTC_a4100.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4100
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4100.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_a4100.dir/CheckFunctionExists.c.o -o cmTC_a4100 
+/usr/bin/ld: CMakeFiles/cmTC_a4100.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a4100.dir/build.make:99: cmTC_a4100] Error 1
+gmake[1]: Leaving directory '/root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a4100/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_278bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_278bc.dir/build.make CMakeFiles/cmTC_278bc.dir/build
+gmake[1]: Entering directory '/root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_278bc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_278bc.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_278bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_278bc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_278bc.dir/CheckFunctionExists.c.o -o cmTC_278bc  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_278bc.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_278bc.dir/build.make:102: cmTC_278bc] Error 1
+gmake[1]: Leaving directory '/root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_278bc/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77a66/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77a66.dir/build.make CMakeFiles/cmTC_77a66.dir/build
+gmake[1]: Entering directory '/root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77a66.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_77a66.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77a66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77a66.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_77a66.dir/CheckFunctionExists.c.o -o cmTC_77a66  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_77a66.dir/build.make:103: cmTC_77a66] Error 1
+gmake[1]: Leaving directory '/root/autodl-tmp/gaussian-splatting/colmap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_77a66/fast] Error 2
+
+
+
+Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: NVIDIA \(R\) Cuda compiler driver":
+Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-12.1/bin/nvcc 
+Build flags: 
+Id flags:  -v
+
+The output was:
+No such file or directory
+
+
+Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: NVIDIA \(R\) Cuda compiler driver":
+Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-12.1/bin/nvcc 
+Build flags: 
+Id flags:  -v
+
+The output was:
+No such file or directory
+
+
+Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: NVIDIA \(R\) Cuda compiler driver":
+Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-12.1/bin/nvcc 
+Build flags: 
+Id flags:  -v
+
+The output was:
+No such file or directory
+
+
+Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: NVIDIA \(R\) Cuda compiler driver":
+Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-12.1/bin/nvcc 
+Build flags: 
+Id flags:  -v
+
+The output was:
+No such file or directory
+
+
+Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: NVIDIA \(R\) Cuda compiler driver":
+Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-12.1/bin/nvcc 
+Build flags: 
+Id flags:  -v
+
+The output was:
+No such file or directory
+
+
