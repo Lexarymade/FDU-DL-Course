@@ -11,4 +11,6 @@ DATA620004 神经网络与深度学习
 模型训练与测试运行命令：`python train.py` 如果想直接测试，需要在文件中给出`model_path`并指定`is_train=False`再运行命令即可
 
 
-## Homework2 To Be Continue
+## Final Project 3DGS
+
+环境配置：参考 [知乎链接1](https://zhuanlan.zhihu.com/p/1889024280211199152)、[知乎链接2](https://zhuanlan.zhihu.com/p/10133731526)
