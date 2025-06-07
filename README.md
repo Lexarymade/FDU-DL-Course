@@ -41,6 +41,6 @@ cmake .. \
 ninja -j$(nproc)
 
 # 6. 测试
-ninja install          # ninja install 会把 colmap 复制到 /usr/local/bin/，库文件装到 /usr/local/lib/，所以所有终端都能直接调用
+ninja install          # ninja install 会把colmap复制到 /usr/local/bin/，所以所有终端都能直接调用
 colmap help                 
 ```
