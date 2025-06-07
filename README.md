@@ -43,3 +43,4 @@ ninja -j$(nproc)
 ninja install          # ninja install 会把colmap复制到 /usr/local/bin/，所以所有终端都能直接调用
 colmap help                 
 ```
+TODO
