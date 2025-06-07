@@ -18,8 +18,7 @@ DATA620004 神经网络与深度学习
 - colmap：参考[colmap配置](https://blog.csdn.net/Sakuya__/article/details/134766215)
 
 ```
-# 1. 上面的参考文档中colmap的编译步骤存在问题，可以改为使用这个脚本
-
+# 1. 上面的参考文档中colmap的编译步骤存在问题
 apt-get update
 apt-get install -y build-essential cmake ninja-build
 
