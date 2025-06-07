@@ -1,0 +1,12 @@
+#wandb config
+project_name: "dnn_from_scratch"
+data_path: "./data"
+
+model_params:
+  hidden_dim1: [4096, 2048, 1024, 512]
+  lr: [0.005, 0.01, 0,001]
+  weight_decay: [0.0001, 0.00001]
+
+train_params:
+  batch_size: 64
+  epoch_size: 10
