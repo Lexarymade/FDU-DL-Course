@@ -1,6 +1,8 @@
 # FDU-DL-Course
 DATA620004 神经网络与深度学习
-
+```
+git clone https://github.com/Lexarymade/FDU-DL-Course.git
+```
 ## Homework1 dnn from scratch
 
 <pre>cd dnn_from_scratch/</pre>
