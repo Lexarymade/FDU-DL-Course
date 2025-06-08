@@ -12,7 +12,9 @@ DATA620004 神经网络与深度学习
 
 
 ## Final Project 3DGS
-
+```
+cd gaussian-splatting/
+```
 环境配置：
 - colmap：参考[colmap配置](https://blog.csdn.net/Sakuya__/article/details/134766215)
 - 3dgs：参考 [知乎链接1](https://zhuanlan.zhihu.com/p/1889024280211199152)、[知乎链接2](https://zhuanlan.zhihu.com/p/10133731526)、[csdn文章](https://blog.csdn.net/Sakuya__/article/details/135376331)
