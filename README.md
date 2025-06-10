@@ -20,7 +20,7 @@ cd gaussian-splatting/
 环境配置：
 - colmap：参考[colmap配置](https://blog.csdn.net/Sakuya__/article/details/134766215)
 - 3dgs：参考 [知乎链接1](https://zhuanlan.zhihu.com/p/1889024280211199152)、[知乎链接2](https://zhuanlan.zhihu.com/p/10133731526)、[csdn文章](https://blog.csdn.net/Sakuya__/article/details/135376331)
-- 3dgs viewer：[GS-Lightning](https://github.com/yzslab/gaussian-splatting-lightning)、参考 [知乎链接3](https://zhuanlan.zhihu.com/p/711384641)
+- 3dgs viewer：[Supersplat](https://superspl.at/editor)、[GS-Lightning](https://github.com/yzslab/gaussian-splatting-lightning)、参考 [知乎链接3](https://zhuanlan.zhihu.com/p/711384641)
 
 ```
 # 1. 上面的参考文档中colmap的编译步骤存在问题
