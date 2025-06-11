@@ -50,17 +50,20 @@ colmap help
 - Viewer: follow [nerfstudio](https://github.com/yzslab/nerfstudio/tree/gaussian_splatting)
 
 ### 代码使用：
-
+- Train:
+```
+# 在这个bash文件中配置好数据与output dir
+bash train_video.sh
+```
 - Viewer:
 ```
-cd nerfstudio/
+cd ../nerfstudio/
 python nerfstudio/scripts/gaussian_splatting/run_viewer.py --model-path GAUSSIAN_TRAINING_OUTPUT_MODEL_DIR
 ```
 
-
 - Render with custom camera pose:
 ```
-cd nerfstudio/
+cd ../nerfstudio/
 python nerfstudio/scripts/gaussian_splatting/render.py camera-path \
     --model-path GAUSSIAN_TRAINING_OUTPUT_MODEL_DIR \
     --camera-path-filename YOUR_CAMERA_PATH_FILE.json \
