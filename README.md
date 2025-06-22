@@ -70,5 +70,7 @@ python nerfstudio/scripts/gaussian_splatting/render.py camera-path \
     --output-path YOUR_OUTPUT_MP4_FILE.mp4
 ```
 
-
+### 渲染效果：
+使用新的camera pose渲染环绕物体的视频：
+[查看完整PDF](gaussian-splatting/assets.pdf)
 
