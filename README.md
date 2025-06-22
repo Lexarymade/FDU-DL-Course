@@ -18,6 +18,8 @@ cd dnn_from_scratch/
 ```
 cd gaussian-splatting/
 ```
+模型下载: https://pan.baidu.com/s/1GFHt9bOA_iIhVKWDvN80tQ?pwd=htb2
+
 ### 环境配置：
 - COLMAP：follow [colmap配置](https://blog.csdn.net/Sakuya__/article/details/134766215)
 ```
@@ -71,6 +73,6 @@ python nerfstudio/scripts/gaussian_splatting/render.py camera-path \
 ```
 
 ### 渲染效果：
-使用新的camera pose渲染环绕物体的视频：
+使用训练好的3DGS，给定新的camera pose渲染环绕物体的视频结果：
 ![](gaussian-splatting/assets/around_earth.png)
 
