@@ -73,6 +73,6 @@ python nerfstudio/scripts/gaussian_splatting/render.py camera-path \
 ```
 
 ### 渲染效果：
-使用训练好的3DGS，给定新的camera pose渲染环绕物体的视频结果（(完整视频)[nerfstudio/YOUR_MP4_FILE.mp4]）：
+使用训练好的3DGS，给定新的camera pose渲染环绕物体的视频结果（[完整视频](nerfstudio/YOUR_OUTPUT_MP4_FILE.mp4)）：
 ![](gaussian-splatting/assets/around_earth.png)
 
