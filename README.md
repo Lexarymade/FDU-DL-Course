@@ -72,5 +72,5 @@ python nerfstudio/scripts/gaussian_splatting/render.py camera-path \
 
 ### 渲染效果：
 使用新的camera pose渲染环绕物体的视频：
-[查看完整PDF](gaussian-splatting/assets.pdf)
+[查看完整PDF](gaussian-splatting/assets/around_earth.pdf)
 
